@@ -7,9 +7,13 @@
     })
     { }
 }:
+let
+  form = pkgs.callPackage ./pkgs/form { };
+in
 pkgs.mkShell
 {
   nativeBuildInputs = [
+    form
     pkgs.rustfmt
     pkgs.svd2rust
     pkgs.svdtools
