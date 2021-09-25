@@ -10,9 +10,9 @@
 pkgs.mkShell
 {
   nativeBuildInputs = [
-    pkgs.python39Packages.svdtools
     pkgs.rustfmt
     pkgs.svd2rust
+    pkgs.svdtools
     pkgs.unzip
   ];
 }
