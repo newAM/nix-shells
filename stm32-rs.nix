@@ -1,9 +1,9 @@
 { pkgs ? import
     (builtins.fetchTarball {
-      name = "nixpkgs-newam-svdtools";
+      name = "nixpkgs-2021-10-16";
       # nix-prefetch-url --unpack <url>
-      url = "https://github.com/newAM/nixpkgs/archive/9a0a796347f041a42afc286cd89b23633e17a095.tar.gz";
-      sha256 = "1kb29kngny5pknnp02smh5sr9vq10kzpv1msypcvyzk3g22djh49";
+      url = "https://github.com/nixos/nixpkgs/archive/b1c9da88495de94950463e31f584af0d42419123.tar.gz";
+      sha256 = "0mvxy99c2hrsh872p6cvvgbngskvgm5h42rgykn2va01x63ndzha";
     })
     { }
 }:
