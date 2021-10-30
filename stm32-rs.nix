@@ -1,4 +1,4 @@
-{ pkgs ? import ./pins/2021-10-29.nix }:
+{ pkgs ? import ./pins/2021-10-30.nix }:
 
 let
   form = pkgs.callPackage ./pkgs/form { };
