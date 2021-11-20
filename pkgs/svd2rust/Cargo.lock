@@ -22,9 +22,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.44"
+version = "1.0.47"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "61604a8f862e1d5c3229fdd78f8b02c68dcf73a4c4b05fd636d12240aaa242c1"
+checksum = "38d9ff5d688f1c13395289f67db01d4826b46dd694e7580accdc3e8430f2d98e"
 
 [[package]]
 name = "atty"
@@ -202,9 +202,9 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "svd-parser"
-version = "0.11.0"
+version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "799387fd53f7832ced8e28a86cda6bb4840ddc69531c3189ee7e061606c9d9d4"
+checksum = "5ecdb6d32990deddc5d57736fb73603c816dfa9e828c8de750d8b2b922363e72"
 dependencies = [
  "anyhow",
  "roxmltree",
@@ -214,9 +214,9 @@ dependencies = [
 
 [[package]]
 name = "svd-rs"
-version = "0.11.1"
+version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c089016978c1d042f42a2e9e78053786ab062d594e0ec28dd6946eaa81f06a8"
+checksum = "bd413849fb18fb1d19cf7bc91f571cd5da0f92ad20f688e068ee09d52d23423d"
 dependencies = [
  "once_cell",
  "regex",
