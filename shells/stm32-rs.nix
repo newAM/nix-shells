@@ -12,7 +12,7 @@ pkgs.mkShell
     pkgs.python3Packages.pyyaml
     pkgs.rustfmt
     pkgs.svd2rust
-    pkgs.svdtools
     pkgs.unzip
+    svdtools
   ];
 }
