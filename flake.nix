@@ -1,5 +1,5 @@
 {
-  inputs.nixpkgs.url = "github:newam/nixpkgs/svd2rust";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/master";
 
   outputs = { self, nixpkgs }: let pkgs = import nixpkgs { system = "x86_64-linux"; }; in {
     packages.x86_64-linux.svdtools = pkgs.callPackage ./pkgs/svdtools { };
