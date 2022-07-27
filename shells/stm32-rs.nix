@@ -2,6 +2,7 @@
 
 let
   form = pkgs.callPackage ../pkgs/form { };
+  svd2rust = pkgs.callPackage ../pkgs/svd2rust { };
 in
 pkgs.mkShell
 {
@@ -10,8 +11,8 @@ pkgs.mkShell
     pkgs.python3
     pkgs.python3Packages.pyyaml
     pkgs.rustfmt
-    pkgs.svd2rust
     pkgs.svdtools
     pkgs.unzip
+    svd2rust
   ];
 }
