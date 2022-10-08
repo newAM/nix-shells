@@ -5,14 +5,14 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "form";
-  version = "0.8.0";
+  version = "0.10.0";
 
   src = fetchFromGitHub {
     owner = "djmcgill";
     repo = pname;
-    rev = "fcb397a39d633ba7fbda057483e0587cef05f25d";
-    sha256 = "1jsh0qwpl2n77jdbzq4xxa7jbra5lj2k80aifpwgnlpfx8hmi11z";
+    rev = "v${version}";
+    sha256 = "sha256-cqoc2sTtVdhTAQ65oaJKo1+YMfQu7eHCe8zjRPDz9zg=";
   };
 
-  cargoSha256 = "12i5r73gpnkvmsbac87rdwgv01xdpfqjnj9kmmjbixf7cdfhya1l";
+  cargoSha256 = "sha256-dhPp93AH4VlOVJWXMMUwv8b53vLPdBY3WyaXE4kcEm4=";
 }

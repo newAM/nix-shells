@@ -1,0 +1,8 @@
+{
+  "[nix]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.tabSize": 2
+  }
+}
