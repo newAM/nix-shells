@@ -8,6 +8,7 @@ pkgs.mkShell
   nativeBuildInputs = [
     form
     pkgs.python3
+    pkgs.python3Packages.jinja2
     pkgs.python3Packages.pyyaml
     pkgs.rustfmt
     pkgs.svd2rust
