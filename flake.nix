@@ -9,6 +9,7 @@
   in {
     packages.x86_64-linux = {
       form = pkgs.callPackage ./pkgs/form {};
+      svd2html = pkgs.callPackage ./pkgs/svd2html {};
     };
     devShells.x86_64-linux = {
       stm32-rs = pkgs.callPackage ./shells/stm32-rs.nix {};
